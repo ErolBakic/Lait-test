@@ -22,7 +22,11 @@
                     </FooterMenu>
 
                     <FooterMenu title="Kontakt">
-                        <li><address>Slotsgade 26<br> DK-5000 Odense C</address></li>
+                        <li>
+                            <address>
+                                <a href="https://maps.app.goo.gl/CpcvAZGAQ3VRQbVP8" target="_blank">Slotsgade 26<br> DK-5000 Odense C</a>
+                            </address>
+                        </li>
                     </FooterMenu>
 
                     <FooterMenu title="Social">
