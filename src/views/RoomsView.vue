@@ -19,6 +19,6 @@
     </div>
 </template>
 
-<style lang="scss" scoped lang="scss">
+<style lang="scss" scoped>
 
 </style>
