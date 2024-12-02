@@ -19,15 +19,21 @@
     .footer-menu{
         margin-left: 50px;
         margin-right: 50px;
+        margin-top: 16px;
         &__title{
-            font-weight: bold;
+            font-family: $heading;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16.8px;
+            letter-spacing: 1.3px;
             margin-bottom: 20px;
         }
         &__nav{
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: column;
-            line-height: 30px;
+            font-family: $parafont;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 36px;
+            letter-spacing: 1px;
         }
     }
 </style>

@@ -22,6 +22,11 @@
             padding: 20px 60px;
             color: $white;
             text-transform: uppercase;
+            font-family: $parafont;
+            font-weight: 800;
+            font-size: 15px;
+            line-height: 20.49px;
+            letter-spacing: 1.5px;
         }
     }
 </style>

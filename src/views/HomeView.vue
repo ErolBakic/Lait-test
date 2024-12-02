@@ -6,6 +6,7 @@
     import Header from '../components/Header.vue';
     import Btn from '@/components/Btn.vue';
     import MainContent from '@/components/MainContent.vue';
+    import RoomList from '@/components/RoomList.vue';
 
     // types
     import type { Room } from '../types/Room';
@@ -34,12 +35,12 @@
 <template>
     <Header bgImage="/hero/heroHome.jpg">
         <h1>Nyt hotel i centrum af odense</h1>
-        <Btn link="/om-hotels"/>
+        <Btn text="Læs mere" link="/om-hotels"/>
     </Header>
 
-    <MainContent class="main-content" :rooms="rooms" bgColor="primary">
+    <MainContent titleLeft="Om alpha" class="main-content" :rooms="rooms" bgColor="primary">
         <template #left>
-            <p class="uppercase">Om Alpha</p>
+            
         </template>
 
         <template #right>
@@ -47,6 +48,8 @@
             <p>Hotellet tilbyder 390 helt nyrenoverede værelser, en smuk ny café og en fredfyldt grøn gårdhave åben for hotellets gæster, lokale og forbipasserende. Cafeen og gårdhaven er indrettet til at få alle til at føle sig velkomne uanset anledningen.</p>
         </template>
     </MainContent>
+
+    <RoomList :rooms="rooms"/>
 
     <MainContent class="main-content" :rooms="rooms" bgColor="primary">
         <template #left></template>
